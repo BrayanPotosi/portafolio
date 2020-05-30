@@ -1,4 +1,4 @@
-![](https://i.imgur.com/alwl6Q0.jpg)
+![](https://imgurl.me/images/2020/05/31/logo50b16b3d1cd7260f.png)
 
 **Bievenido a mi portafolio, en este momento me encuentro :** 
 
