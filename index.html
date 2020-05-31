@@ -9,69 +9,72 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <div>
-            <figure>
+            <figure class="logo">
                 <img src="https://imgurl.me/images/2020/05/31/firma-2425199dc5aeebd8c.png" alt="Logo del sitio web"> 
             </figure>
-        <nav>
+        <nav class="menu">
             <ol>
                 <li>
-                    <a>Portafolio</a>
+                    <a class="link" href="#portafolio">Portafolio</a>
                 </li>
                 <li>
-                    <a>Experiencia</a>
+                    <a class="link" href="#experiencia">Experiencia</a>
                 </li>
                 <li>
-                    <a>Trabajemos juntos</a>
+                    <a class="link" href="#contacto">Trabajemos juntos</a>
                 </li>
             </ol>
         </nav>
         </div>
     </header>
 
-    <section>
+    <section class="hero">
         <h1>
             <strong>Brayan Potosi</strong> <br/> apasionado por la <strong>Tecnologia</strong>
         </h1>
         <img src="https://imgurl.me/images/2020/05/31/Ejecutivoffea93f814f8f1c0.jpg" alt="Imagen Portada" width="500">
     </section>
     
-    <section>
-        <h2>Portafolio (proyectos destacados)</h2>
-        <article> 
-        <h3>Bot de compras</h3>
-        <h6>Python</h6>
-        <p><small> <strong>Fecha :</strong>21-Diciembre-2019</small></p>
-        <img src="https://imgurl.me/images/2020/05/31/Robot-17ec05b6eae1f33b1.jpg" alt="Imagen del proyecto" width="350">
-        <p>Este proyecto se encarga de automatizar la eleccion de articulos basados en precio y calidad para los usuarios, tomo 3 meses de desarrollo y los colaboradores son mi persona, mi persona y mi persona</p>
-        </article>
+    <section id="portafolio" class="portfolio"> 
+        <h2 >Portafolio (proyectos destacados)</h2>
+        <article class="project"> 
+        <h3 class="project_tittle">Bot de compras</h3>
+        <h6 class="project_course">Python</h6>
+        <p class="project_date"><small> <strong>Fecha :</strong>21-Diciembre-2019</small></p>
+        <p class="project_description">Este proyecto se encarga de automatizar la eleccion de articulos basados en precio y calidad para los usuarios, tomo 3 meses de desarrollo y los colaboradores son mi persona, mi persona y mi persona</p>
+        <figure class="project_image_Container">
+            <img class="project_image" src="https://imgurl.me/images/2020/05/31/Robot-17ec05b6eae1f33b1.jpg" alt="Imagen del proyecto" width="350">
+        </figure>
+    </article>
     </section>
 
-    <section> 
+    <section id="eventos"> 
         <h2>
             Mas sobre mi experiencia
         </h2>
-        <article>
-            <figure>
-                <img src="https://imgurl.me/images/2020/05/31/conferenciafcdd08519cf6cbe5.jpg" alt="Imagen conferencia" width="350">
+        <article class="event">
+            <figure class="event_imageContainer">
+                <img class="event_image" src="https://imgurl.me/images/2020/05/31/conferenciafcdd08519cf6cbe5.jpg" alt="Imagen conferencia" width="350">
             </figure>
-            <h3>
+            <h3 class="event_tittle">
                 Conferencia Colombia 4.0
             </h3>
-            <p>Colombia 4.0 es, desde su primera versión, en 2011, la cumbre de contenidos digitales más importante del país, que año tras año reúne a lo mejor de la industria creativa digital en el mundo y en Colombia, y que se ha convertido en el punto de partida para marcar las tendencias de desarrollo en esta materia</p>
+            <p class="event_description">Colombia 4.0 es, desde su primera versión, en 2011, la cumbre de contenidos digitales más importante del país, que año tras año reúne a lo mejor de la industria creativa digital en el mundo y en Colombia, y que se ha convertido en el punto de partida para marcar las tendencias de desarrollo en esta materia</p>
             <a>Ver conferencia</a>
         </article>
 
     </section>
 
-    <section>
-        <form action="">
+    <section id="contacto" class="contact">
+        <form action="" class="form_email">
+            <h3>¿Deseas trabajar conmigo?</h3>
             <input type="text" placeholder="Correo Electronico">
             <button>Enviar</button>
         </form>
     </section>
-    <footer>Footer</footer>
+    <footer class="footer">Footer</footer>
 
 </body>
 
