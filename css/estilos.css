@@ -10,4 +10,39 @@ h1{
     font-size: 40px;
     line-height: 120%;
     letter-spacing: -.3px;
+    color: white;
 }
+
+.header a{
+    color: white;
+    text-decoration: none;
+    color: black;
+}
+
+.hero{
+    height: 300px;
+    background-color: #141519;
+    background-image: url('https://imgurl.me/images/2020/05/31/imagen-portada2d91bdc88e5faed5c.jpg');
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.project_details{
+    width: 500px;
+}
+
+.project_imageContainer{
+    width: 500px;
+}
+
+.project_image{
+    width: 500px;
+}
+
+.event_image{
+    width: 500px;
+}
+
+
+/* <img src="https://imgurl.me/images/2020/05/31/Ejecutivoffea93f814f8f1c0.jpg" alt="Imagen Portada" width="500">*/
