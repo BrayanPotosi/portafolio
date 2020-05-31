@@ -11,7 +11,7 @@ h1{
     line-height: 120%;
     letter-spacing: -.3px;
     color: white;
-    margin-top: 0;
+    margin-left: 60px;
 }
 
 h1 strong{
@@ -19,19 +19,49 @@ h1 strong{
    
 }
 
+.header{
+    display:flex;
+    justify-content: space-between;
+    height: 75px;
+}
+
+.header ol{
+    display: flex;
+    height: inherit;
+}
+
+.header ol li{
+    height: inherit;
+}
+
 .header a{
-    color: white;
     text-decoration: none;
-    color: black;
-    margin: 1 1;
-
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    
 }
 
-.logo{
-    height: 0;
-    margin-bottom: 0;
-    margin-left: 0;
+.menu { /* .menu hereda de .header */
+    height: inherit;
+  }
+  
+
+.logo{  
+    
 }
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+figure {
+    margin: 0;
+  }
 
 .hero{
     height: 300px;
@@ -40,7 +70,7 @@ h1 strong{
     background-size: 500px 300px;
     background-repeat: no-repeat;
     background-position-x: right;
-    margin-top: 5.8%;
+    padding-top: 20px;
 }
 
 .project{
@@ -51,6 +81,7 @@ h1 strong{
     margin-left: 50px;
     margin-right: 50px;
     padding: 50px;
+    display: flex;
 
 }
 
@@ -60,11 +91,11 @@ h1 strong{
 }
 
 .project_imageContainer{
-    width: 500px;
+    width: 420px;
 }
 
 .project_image{
-    width: 500px;
+    width: 420px;
 }
 
 .event_image{
