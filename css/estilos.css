@@ -11,17 +11,26 @@ h1{
     line-height: 120%;
     letter-spacing: -.3px;
     color: white;
+    margin-top: 0;
 }
 
 h1 strong{
     color: greenyellow;
-
+   
 }
 
 .header a{
     color: white;
     text-decoration: none;
     color: black;
+    margin: 1 1;
+
+}
+
+.logo{
+    height: 0;
+    margin-bottom: 0;
+    margin-left: 0;
 }
 
 .hero{
@@ -31,10 +40,23 @@ h1 strong{
     background-size: 500px 300px;
     background-repeat: no-repeat;
     background-position-x: right;
+    margin-top: 5.8%;
+}
+
+.project{
+    margin-bottom: 15px;
+    border: solid gray 1px;
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 50px;
+
 }
 
 .project_details{
     width: 500px;
+    
 }
 
 .project_imageContainer{
