@@ -92,7 +92,8 @@ h2{
     border-radius: 25px;
     padding: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+
 
 }
 
@@ -103,11 +104,11 @@ h2{
 }
 
 .project_imageContainer{
-    width: 420px;
+    width: 300px;
 }
 
 .project_image{
-    width: 420px;
+    width: 300px;
 }
 
 .event_image{
