@@ -1,5 +1,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    border: 0;
+    margin: 0;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -40,6 +42,7 @@ h1 strong{
     display: flex;
     align-items: center;
     padding: 0 10px;
+    color: black;
     
 }
 
@@ -73,20 +76,29 @@ figure {
     padding-top: 20px;
 }
 
+.portfolio{
+    padding:20px;
+}
+
+h2{
+    color:black;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
 .project{
     margin-bottom: 15px;
     border: solid gray 1px;
     border-radius: 25px;
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
     padding: 50px;
     display: flex;
+    justify-content: space-between;
 
 }
 
 .project_details{
     width: 500px;
+    
     
 }
 
@@ -102,5 +114,31 @@ figure {
     width: 500px;
 }
 
+.footer{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: black;
+height: 78px;
+}
 
-/* <img src="https://imgurl.me/images/2020/05/31/Ejecutivoffea93f814f8f1c0.jpg" alt="Imagen Portada" width="500">*/
+.footer p{
+    color: white;
+
+}
+
+.footer_section{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+.footer_textDescription{
+padding-top: 25px;
+}
+
+.footer_textYear{
+    text-align: center;
+    padding-bottom: 20px;
+}
