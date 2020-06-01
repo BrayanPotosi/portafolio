@@ -84,6 +84,7 @@ h2{
     color:black;
     text-transform: uppercase;
     margin-bottom: 40px;
+    font-size: 24px;
 }
 
 .project{
@@ -92,13 +93,26 @@ h2{
     border-radius: 25px;
     padding: 50px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
 
 
 }
 
+.project_tittle,
+.project_course{
+    margin: 10px 0;
+}
+
+.project_tittle{
+    font-size: 26px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
 .project_details{
     width: 500px;
+    margin: 20px;
     
     
 }
@@ -112,7 +126,6 @@ h2{
 }
 
 .event_image{
-    width: 500px;
 }
 
 .footer{
@@ -136,10 +149,39 @@ height: 78px;
 }
 
 .footer_textDescription{
-padding-top: 25px;
+font-size: 20px;
 }
 
 .footer_textYear{
     text-align: center;
     padding-bottom: 20px;
+}
+
+.event{
+    border: solid black 1px;
+    border-radius: 25px;
+    margin: 10px;
+    width: 500px;
+    overflow: hidden;
+}
+
+.event img{
+    flex-shrink: 0;
+    height: 200px;
+}
+
+.event_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.event_imageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.event_mainTittle{
+    padding-left: 20px;
 }
