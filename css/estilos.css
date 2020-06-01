@@ -48,11 +48,13 @@ h1 strong{
 
 .menu { /* .menu hereda de .header */
     height: inherit;
+    padding-right: 10px;
   }
   
 
 .logo{  
-    
+    padding-left: 20px;
+    padding-top: 13px;
 }
 
 ol,
