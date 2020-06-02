@@ -89,6 +89,12 @@ h2{
     margin-bottom: 40px;
     font-size: 24px;
 }
+h3{
+    color:black;
+    text-transform: uppercase;
+    padding-left: 20px;
+    font-size: 24px;
+}
 
 .project{
     margin-bottom: 15px;
@@ -206,5 +212,53 @@ font-size: 20px;
 .event_url{
     border: 1px solid #0a97b0 ;
     border-radius: 9px;
+    border-style: solid;
     padding: 4px;
 }
+
+.contact{
+    height: 150px;
+    background-color: #fafafa;
+    font-size: 20px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form_email input{
+    border: 1px;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+.form_email button{
+    display: block;
+}
+
+.social{
+}
+
+.social_link{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+}
+
+.social_link.facebook{
+    background-image:url('https://imgurl.me/images/2020/06/02/facebook8bc0c9ae5812c3ed.png');
+
+}
+.social_link.linkedin{
+    background-image:url('https://imgurl.me/images/2020/06/02/linkedin289720e8051a652c7.png');
+
+}
+.social_link.platzi{
+    background-image:url('https://imgurl.me/images/2020/06/02/platzi52311fd1ba954104.png');
+
+}
+.social_link.github{
+    background-image:url('https://imgurl.me/images/2020/06/02/github8ed2350cc73fb0a5.png');
+
+}
+
