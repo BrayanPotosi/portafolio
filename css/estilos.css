@@ -72,11 +72,13 @@ figure {
 .hero{
     height: 300px;
     background-color: #141519;
-    background-image: url('https://imgurl.me/images/2020/05/31/imagen-portada2d91bdc88e5faed5c.jpg');
-    background-size: 500px 300px;
-    background-repeat: no-repeat;
-    background-position-x: right;
     padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero img{
+    object-fit: fill;
 }
 
 .portfolio{
@@ -88,6 +90,7 @@ h2{
     text-transform: uppercase;
     margin-bottom: 40px;
     font-size: 24px;
+    padding-left: 20px;
 }
 h3{
     color:black;
@@ -169,9 +172,11 @@ font-size: 20px;
 .event{
     border-radius: 10px;
     margin: 10px;
-    width: 500px;
+    width: 450px;
     overflow: hidden;
     background-color: #f0f0f0;
+    flex-wrap: wrap;
+    
 }
 
 .event img{
@@ -220,7 +225,6 @@ font-size: 20px;
     height: 150px;
     background-color: #fafafa;
     font-size: 20px;
-    padding-left: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -265,3 +269,12 @@ font-size: 20px;
 
 }
 
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
