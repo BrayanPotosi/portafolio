@@ -95,6 +95,9 @@ h3{
     color:black;
     text-transform: uppercase;
     font-size: 24px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
 }
 
 .project{
@@ -135,9 +138,6 @@ h3{
     width: 300px;
 }
 
-.event_image{
-}
-
 .footer{
 display: flex;
 justify-content: center;
@@ -161,7 +161,7 @@ height: 85px;
 
 .footer_textDescription{
 font-size: 18px;
-margin: 9px 0 0 0;
+margin: 13px 0 0 0;
 display: flex;
 justify-content: center;
 }
@@ -224,6 +224,8 @@ justify-content: center;
     border-radius: 9px;
     border-style: solid;
     padding: 4px;
+    text-decoration: none;
+    color: #0a97b0;
 }
 
 .contact{
