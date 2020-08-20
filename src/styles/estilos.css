@@ -291,9 +291,7 @@ justify-content: center;
 
 
 @media screen and (max-width: 1024px){
-    body{
-        border: red solid 10px;
-    }
+    
 }
 @media screen and (max-width: 767px){
     .header{
@@ -323,12 +321,8 @@ justify-content: center;
     }
 }
 @media screen and (max-width: 480px){
-    body{
-        border: green solid 10px;
-    }
+    
 }
 @media screen and (max-width: 320px){
-    body{
-        border: yellow solid 10px;
-    }
+    
 }
