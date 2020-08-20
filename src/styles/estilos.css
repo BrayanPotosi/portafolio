@@ -123,13 +123,13 @@ h3{
     font-size: 26px;
     margin-top: 0;
     margin-bottom: 10px;
+    
 }
 
 .project_details{
     margin: 20px;
-    
-    
 }
+
 
 .project_imageContainer{
     width: 50%;
@@ -291,7 +291,10 @@ justify-content: center;
 
 
 @media screen and (max-width: 1024px){
-    
+    .project_details h3{
+        display: flex;
+        justify-content: left;
+    }
 }
 @media screen and (max-width: 767px){
     .header{
@@ -318,10 +321,31 @@ justify-content: center;
     
     .project_details{
         font-size: 16px;
+        justify-content: center;
+        
+    }
+    .project_details h3{
+        display: flex;
+        justify-content: center;
+    }
+    .project_course{
+        font-size: .7em;
+    }
+    .project_date{
+        font-size: 1em;
+    }
+    .project_description{
+        font-size: .8em;
+        text-align: justify;
+    }
+    .project_course, .project_date, .project_tittle{
+        margin: .3em;
     }
 }
 @media screen and (max-width: 480px){
-    
+    .project_details{
+        font-size: 12px;
+    }
 }
 @media screen and (max-width: 320px){
     
