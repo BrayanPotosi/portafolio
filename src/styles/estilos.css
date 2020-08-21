@@ -343,6 +343,7 @@ justify-content: center;
     }
     .event{
         width:auto;
+        flex-shrink: 1;
     }
 }
 @media screen and (max-width: 480px){
@@ -351,7 +352,10 @@ justify-content: center;
     }
 
    .contact{
-        height: auto;
+        height: initial;
+    }
+    .event_imgage{
+        width: 100%;
     }
 
     
