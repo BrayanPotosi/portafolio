@@ -179,7 +179,7 @@ justify-content: center;
 .event{
     border-radius: 10px;
     margin: 10px;
-    width: 450px;
+    width: 48%;
     overflow: hidden;
     background-color: #f0f0f0;
     flex-wrap: wrap;
@@ -189,7 +189,7 @@ justify-content: center;
 .event img{
     flex-shrink: 0;
     height: 200px;
-    width: 500px;
+    width: 100%;
     object-fit: fill;
     
 }
@@ -197,7 +197,7 @@ justify-content: center;
 .event_list{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .event_imageContainer{
@@ -341,11 +341,20 @@ justify-content: center;
     .project_course, .project_date, .project_tittle{
         margin: .3em;
     }
+    .event{
+        width:auto;
+    }
 }
 @media screen and (max-width: 480px){
     .project_details{
         font-size: 12px;
     }
+
+   .contact{
+        height: auto;
+    }
+
+    
 }
 @media screen and (max-width: 320px){
     
