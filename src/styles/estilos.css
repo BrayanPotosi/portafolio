@@ -84,7 +84,7 @@ figure {
 }
 
 .portfolio{
-    padding:20px;
+    padding:1.2em;
 }
 
 h2{
@@ -177,8 +177,8 @@ justify-content: center;
 }
 
 .event{
-    border-radius: 10px;
-    margin: 10px;
+    border-radius: .9em;
+    margin: .5em;
     width: 48%;
     overflow: hidden;
     background-color: #f0f0f0;
@@ -296,7 +296,7 @@ justify-content: center;
         justify-content: left;
     }
 }
-@media screen and (max-width: 767px){
+@media screen and (max-width: 768px){
     .header{
         display: block;
         height: auto;
@@ -352,7 +352,8 @@ justify-content: center;
     }
 
    .contact{
-        height: initial;
+        height: auto;
+        padding: 1em 0;
     }
     .event_imgage{
         width: 100%;
