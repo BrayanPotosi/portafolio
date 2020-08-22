@@ -368,6 +368,7 @@ justify-content: center;
     .project_details{
         font-size: 12px;
     }
+    
 
    .contact{
         height: auto;
@@ -386,5 +387,7 @@ justify-content: center;
     }
 }
 @media screen and (max-width: 320px){
-    
+    h1{
+        font-size: 1.2em;
+    }
 }
