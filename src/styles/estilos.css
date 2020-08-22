@@ -72,7 +72,6 @@ figure {
   }
 
 .hero{
-    height: 300px;
     background-color: #141519;
     display: flex;
     justify-content: space-between;
@@ -295,6 +294,24 @@ justify-content: center;
         display: flex;
         justify-content: left;
     }
+
+    .hero{
+        position: relative;
+        height: auto;
+        overflow: hidden;
+    }
+    h1{
+        font-size: 2em;
+        z-index: 2;
+        margin-left: .5em;
+        margin-top: .5em;
+    }
+    .hero img{
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+
+    }
 }
 @media screen and (max-width: 768px){
     .header{
@@ -345,6 +362,7 @@ justify-content: center;
         width:auto;
         flex-shrink: 1;
     }
+    
 }
 @media screen and (max-width: 480px){
     .project_details{
@@ -359,7 +377,13 @@ justify-content: center;
         width: 100%;
     }
 
-    
+    .footer{
+        display: block;
+        text-align: center;
+    }
+    .hero img{
+        
+    }
 }
 @media screen and (max-width: 320px){
     
