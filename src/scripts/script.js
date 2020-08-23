@@ -2,7 +2,7 @@ const MENU = document.querySelector('.menu')
 const BURGER_BUTTON = document.querySelector('#burger_button')
 
 BURGER_BUTTON.addEventListener('click', () => {
-    (menu.classList.contains('is-active'))
-    ?menu.classList.remove('is-active')
-    :menu.classList.add('is-active')
+    (MENU.classList.contains('is-active'))
+    ?MENU.classList.remove('is-active')
+    :MENU.classList.add('is-active')
 })
