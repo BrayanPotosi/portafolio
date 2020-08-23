@@ -444,6 +444,34 @@ justify-content: center;
     
 }
 @media screen and (max-width: 480px){
+
+    .event_list p{
+        font-size: .8rem;
+    }
+
+    .event_list h3{
+        font-size: 1rem;
+    }
+
+
+    .portfolio h2{
+        text-align: center;
+    }
+
+    .project_details h2{
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .project_details h3{
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .project p{
+        font-size:.8rem;
+    }
+
     .burger-button{
         
         font-size: 1rem;
